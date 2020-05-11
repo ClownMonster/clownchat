@@ -3,7 +3,7 @@ import os
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '9*&^%^&*uihjb(*&^%$%^&*t873(#*&^%^&#*&^#(*&65'
 DEBUG = False
-ALLOWED_HOSTS = ['clownchat.herokuapp.com', '127.0.0.1']
+ALLOWED_HOSTS = ['clownchat.herokuapp.com']
 
 INSTALLED_APPS = [
     'django.contrib.admin',

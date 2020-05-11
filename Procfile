@@ -1,2 +1,2 @@
-release: python3 manage.py migrate
-web: gunicorn justchat.wsgi --log-file -
+release: python manage.py migrate
+web: gunicorn clownchat.wsgi --log-file -
